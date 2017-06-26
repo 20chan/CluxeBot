@@ -10,6 +10,9 @@ namespace CluxeBot
     {
         static void Main(string[] args)
         {
+            Bot bot = new Bot(Console.In, Console.Out);
+            bot.Run();
+            
         }
     }
 }
